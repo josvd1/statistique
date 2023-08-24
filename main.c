@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "stat_functions.h"
 
 int main()
 {
-	float arr[] = {1, 2, 3, 4, 5};
+	float arr[] = {45, 40, 29, 67, 5};
 
     int size = sizeof(arr) / sizeof(arr[0]);
 
