@@ -19,4 +19,6 @@ int main()
     bubble_sort(arr, size);
 
     printf("Mediane: %f\n", mediane(arr, size));
+
+    return 0;
 }
