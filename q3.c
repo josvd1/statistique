@@ -1,4 +1,4 @@
-float q3(float arr[], int size)
+float ft_q3(float arr[], int size)
 {
 	if (size % 4 == 0)
 	{
