@@ -14,11 +14,13 @@ int main()
         sum += arr[i];
     }
 
-    printf("Moyenne: %f\n", moyenne(sum, size));
+    printf("Average = %f\n", moyenne(sum, size));
 
     bubble_sort(arr, size);
 
-    printf("Mediane: %f\n", mediane(arr, size));
+    printf("Mean = %f\n", mediane(arr, size));
+
+    printf("Range = %f \n", arr[size - 1] - arr [0]);
 
     return 0;
 }
