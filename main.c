@@ -22,5 +22,9 @@ int main()
 
     printf("Range = %f \n", arr[size - 1] - arr [0]);
 
+    printf("Q1 = %f\n", q1(arr, size));
+
+    printf("Q3 = %f\n", q3(arr, size));
+
     return 0;
 }

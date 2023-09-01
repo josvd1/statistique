@@ -2,9 +2,9 @@ CFLAGS = -Wno-implicit-function-declaration
 
 all: final
 
-final: main.o moyenne.o bubble_sort.o mediane.o
+final: main.o moyenne.o bubble_sort.o mediane.o q1.o q3.o
 	echo "Compiling final"
-	gcc $(CFLAGS) main.o moyenne.o bubble_sort.o mediane.o -o final
+	gcc $(CFLAGS) main.o moyenne.o bubble_sort.o mediane.o q1.o q3.o -o final
 	chmod +x final
 	
 main.o: main.c
@@ -22,6 +22,16 @@ bubble_sort.o: bubble_sort.c
 mediane.o: mediane.c
 	echo "Compiling mediane"
 	gcc $(CFLAGS) -c mediane.c
+
+q1.o: q1.c
+	echo "Compiling Q1"
+	gcc $(CFLAGS) -c q1.c
+
+q3.o: q3.c
+	echo "Compiling Q3"
+	gcc $(CFLAGS) -c q3.c
+
+
 
 clean:
 	echo: "Removing all but the source files"

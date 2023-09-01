@@ -7,4 +7,8 @@ void bubble_sort(float arr[], int n);
 
 float mediane(float array[], int numElements);
 
+float q1(float arr[], int size);
+
+float q3(float arr[], int size);
+
 #endif
