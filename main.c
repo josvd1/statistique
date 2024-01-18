@@ -16,7 +16,8 @@ int main()
 
     printf("Average = %f\n", moyenne(sum, size));
 
-    bubble_sort(arr, size);
+    merge_sort(arr,0, size - 1);
+    
 
     printf("Mean = %f\n", mediane(arr, size));
 
